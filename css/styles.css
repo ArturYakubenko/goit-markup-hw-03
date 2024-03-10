@@ -96,7 +96,6 @@ img {
     text-transform: uppercase;
     color: #4d5ae5;
     margin-right: 76px;
-padding: 24px 0;
 }
 
 .blue-word {
@@ -109,7 +108,6 @@ padding: 24px 0;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
-padding: 24px 0;
 }
 
 .home:focus, .home:hover {
@@ -122,7 +120,6 @@ padding: 24px 0;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #2e2f42;
-        padding: 24px 0;
 }
 
 .header-items:focus .header-items:hover {
@@ -318,9 +315,9 @@ footer {
 }
 
 .portfolio-list-item {
-        border: 1px solid #e7e9fc;
-        width: 360px;
-        height: 420px;
+      
+        
+    width: calc((100% - 48px) / 3);
 }
 
 .list-text {
